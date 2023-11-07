@@ -68,30 +68,68 @@
 
 // Задание №1
 
-const numberOfFilms = +prompt ('Сколько фильмов вы уже посмотрели', '');
+// const numberOfFilms = +prompt ('Сколько фильмов вы уже посмотрели', '');
 
-// Задание №2
-const personalMovieDB = {
-    count : numberOfFilms,
-    movies : {},
-    actors : {},
-    genres : [],
-    privat : false
-};
- // Задание №3
-const watchingAMovie = prompt ('Один из последних просмотреных фильмов', ""),
-      watchGrade = prompt ('На сколько оцените его',""),
-      watchingAMovieA = prompt ('Один из последних просмотреных фильмов', ""),
-      watchGradeB = prompt ('На сколько оцените его',""),
-      watchingAMovieC = prompt ('Один из последних просмотреных фильмов', ""),
-      watchGradeD = prompt ('На сколько оцените его',"");
-
-      
+// // Задание №2
+// const personalMovieDB = {
+//     count : numberOfFilms,
+//     movies : {},
+//     actors : {},
+//     genres : [],
+//     privat : false
+// };
+//  // Задание №3
+// const watchingAMovie = prompt ('Один из последних просмотреных фильмов', ""),
+//       watchGrade = prompt ('На сколько оцените его',""),
+//       watchingAMovieA = prompt ('Один из последних просмотреных фильмов', ""),
+//       watchGradeB = prompt ('На сколько оцените его',""),
+//       watchingAMovieC = prompt ('Один из последних просмотреных фильмов', ""),
+//       watchGradeD = prompt ('На сколько оцените его',"");
 
       
 
- personalMovieDB.movies[watchingAMovie] = watchGrade;
- personalMovieDB.movies[watchingAMovieA] = watchGradeB;
- personalMovieDB.movies[watchingAMovieC] = watchGradeD;
+      
 
- console.log(personalMovieDB);
+//  personalMovieDB.movies[watchingAMovie] = watchGrade;
+//  personalMovieDB.movies[watchingAMovieA] = watchGradeB;
+//  personalMovieDB.movies[watchingAMovieC] = watchGradeD;
+
+//  console.log(personalMovieDB);
+
+// Урок №20
+
+// Пример
+// if (4 == 9) {
+//     console.log ('Ok!');
+// } else {
+//     console.log ('Eror!')
+// }
+
+// const num = 50;
+
+// if (num < 49) {
+//     console.log('error');
+// }else if (num > 100) {
+//     console.log('big');
+// }else {
+//     console.log('Ok!');
+// }
+// // Тернарный оператор  
+// (num === 50) ? console.log('Ok!') : console.log('error');
+
+const num = +prompt('сколько тебе лет?', '');
+console.log(typeof(num));
+switch (num) {
+    case 11:
+        console.log('мало лет нельзя');
+        break;
+    case 16:
+        console.log('нужно ещё подрости');
+        break;
+    case 18:
+        console.log('Тебе есть 18 добро пожаловать');
+        break;
+    default:
+        console.log('Поздновато');
+        break;
+}
