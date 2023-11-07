@@ -78,13 +78,20 @@ const personalMovieDB = {
     genres : [],
     privat : false
 };
-
+ // Задание №3
 const watchingAMovie = prompt ('Один из последних просмотреных фильмов', ""),
       watchGrade = prompt ('На сколько оцените его',""),
       watchingAMovieA = prompt ('Один из последних просмотреных фильмов', ""),
-      watchGradeB = prompt ('На сколько оцените его',"");
+      watchGradeB = prompt ('На сколько оцените его',""),
+      watchingAMovieC = prompt ('Один из последних просмотреных фильмов', ""),
+      watchGradeD = prompt ('На сколько оцените его',"");
+
+      
+
+      
 
  personalMovieDB.movies[watchingAMovie] = watchGrade;
  personalMovieDB.movies[watchingAMovieA] = watchGradeB;
+ personalMovieDB.movies[watchingAMovieC] = watchGradeD;
 
  console.log(personalMovieDB);
