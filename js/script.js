@@ -169,12 +169,36 @@
 //    console.log('Done!')
 // }
 
-let hamburger;
-const fries = NaN;
-const cola = 0;
-const nuggets = 2;
+// let hamburger;
+// const fries = NaN;
+// const cola = 0;
+// const nuggets = 2;
 
 
-if (hamburger && cola || fries === 3 && nuggets) {
-   console.log('Done!')
-}
+// if (hamburger && cola || fries === 3 && nuggets) {
+//    console.log('Done!')
+// }
+
+// Урок 22 Циклы
+
+// let num = 50;
+
+// // while (num <= 55) {
+// //     console.log(num)
+// //     num++;
+// // }
+
+// // do {
+// //     console.log(num)
+// //     num++;
+// // }
+
+// // while (num <= 55);
+ 
+// for (let i = 1; i < 10; i++) {
+//     if (i === 6) {
+//         // break; - останавливает цикл на 9
+//         continue; - //останавливает цикл на 10 но при этом пропускает тот шаг который нам не нуден 
+//     }
+//     console.log(i);
+// }
