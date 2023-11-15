@@ -239,7 +239,7 @@
 
 // let result = '';
 
-// for (let i = 1; i < 6; i++) {
+// for (let i = 1; i < 10; i++) {
 
 //     console.log(result += '*');
 
@@ -256,47 +256,21 @@
 //    } 
 // }
 
-//задачи
+//
 
-//1
 // for (let i = 5; i < 11; i++) {
-//    console.log(i);
+//     console.log(i);
 // }
-// //2
+
 // for (let i = 20; i > 10; i--) {
-//    if ( i === 12){
-//       break
-//    }
-//    console.log(i);
-// }
-// //3
-// for (let i = 2; i <=10 ; i+=2) {
-  
-//    console.log(i);
-// }
-
-// //4
-// let num = 2;
-// while (num <= 16) {
-//     if(num % 2 === 1) {
-//     console.log(num);
-//     num++;
-//     }else {
-//     num++;
+//     if(i === 13){
+//         break
 //     }
+//     console.log(i)
 // }
-// //5
-// const arrayOfNumbers = [];
-// for (let i = 5; i < 11; i++) {
-// arrayOfNumbers[i - 5] = i
-// }
-// console.log(arrayOfNumbers);
 
-const arrayOfNumbers = [];
-arrayOfNumbers[0] = 5
-arrayOfNumbers[1] = 6
-arrayOfNumbers[2] = 7
-arrayOfNumbers[3] = 8
-
-
-console.log(arrayOfNumbers);
+for (let i = 2; i <=10 ; i++) {
+    if (i % 2 === 0)  { 
+      console.log(i); 
+    }
+}
