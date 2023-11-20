@@ -1,17 +1,84 @@
-// // let number = 5;
-// // const LeftBorderWidth = 10;
+// "use strict"; //строгий режим
+// // 9 урок 
+// a = 15;   
+// console.log(a);
 
-// // number = 10;
+// let number = 5;
+// const LeftBorderWidth = 10;
 
-// // console.log (number)
+// number = 10;
 
-// // const obj = {
-// //     a : 50
-// // };
+// console.log (number);
 
-// // obj.a = 10;
+// const obj = {
+//     a : 50
+// };
 
-// // console.log (obj)
+// obj.a = 10;
+
+// console.log (obj)
+
+
+// var name = 'Alex'; // устаревшее написание кода
+// console.log(name);
+
+// {
+//     var result = 50;
+// }
+// console.log(result);
+
+// alert(5);
+// [].push('a');
+
+//урок №10
+// const vehicleBodyWidth = 5000,
+//       vehicleBodylength = 4000;
+
+// console.log("Ширина кузова автомобиля: " + vehicleBodyWidth + ', длина: ' + vehicleBodylength);
+
+// ['yra', 'slava', 'vova'].map(a =>)
+
+//Request
+// Date
+// Response
+
+// snake_case - один из вариантов названия папок и файлов
+// UPPER_SNAKE_CASE - програмисты так обзначают переменные которые хотят видеть как константы
+// Kebab-case - один из вариантов названий папок и файлов
+// PascalCase - используеться для названий классов в JS
+
+// const COLOR_RED = '#F00';
+
+// урок 11 Класификация типов данных
+ 
+// let number = 4.6;
+
+// console.log(-4/0); // -Infinity
+// console.log('string' * 9); // NaN
+
+// const persone = "Alex dfgdfgdf sdfsdfsd sdfsdf 5"; // строка
+
+// const bool = true; // true/false
+
+// console.log(samething); //null
+
+// let und;
+// console.log(und); //undefined
+
+// const obj = {
+//     name: "John",
+//     age: 25,
+//     isMarried: false
+// };
+
+// console.log(obj.name);
+// console.log(obj["name"]);
+
+// let arr = ['plum.png', 'orange.jpg', 6, 'apple.bmp', {}, []]
+// console.log(arr[1]);
+
+// урок 12 разница между объектами и массивами 
+
 
 // const answers = [];
 
@@ -257,4 +324,63 @@
 // }
 
 //
+// let i = 5
+// while (i <= 10){
+//     console.log(i);
+//     i++
+// }
 
+// for(let i = 20; i > 10; i--){
+//     if( i === 13){
+//         break
+//     } 
+//     console.log(i);
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//     if (i % 2 === 1) {
+//         continue;
+//     } else {
+//         console.log(i);
+//     }
+// }
+
+
+
+
+// let i = 2
+// while (i <=16){
+//     if(i % 2 === 0){
+//         i++;
+//         continue;
+//     } else {
+//         console.log(i);
+//     }
+//     i++;   
+// }
+
+// let obj =[];
+// for (let i = 5; i < 10; i++){
+//     obj[i - 5] = i  
+// }
+// console.log(obj)
+
+// let obj = [];
+// let i = 5;
+// while (i < 10){
+//     obj[ i - 5 ] = i
+//     i++
+// }
+// console.log(obj)
+
+// for (let i = 1; i <= 100; i++){
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log('fizzBazz')
+//     }else if (i % 5 === 0){
+//         console.log('Buzz')
+//     }else if (i % 3 === 0){
+//         console.log('fizz')
+//     }else {
+//         console.log(i)
+//     }
+// }
