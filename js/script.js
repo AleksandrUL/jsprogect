@@ -1,5 +1,9 @@
 // "use strict"; //строгий режим
-// // 9 урок 
+
+
+// // 9 урок ПЕРЕМЕННЫЕ И СТРОГИЙ РЕЖИМ
+
+
 // a = 15;   
 // console.log(a);
 
@@ -30,7 +34,10 @@
 // alert(5);
 // [].push('a');
 
-//урок №10
+
+//урок №10 ПРАВИЛА И ТИПЫ НАЗВАНИЯ ПЕРЕМЕННЫХ
+
+
 // const vehicleBodyWidth = 5000,
 //       vehicleBodylength = 4000;
 
@@ -49,7 +56,9 @@
 
 // const COLOR_RED = '#F00';
 
-// урок 11 Класификация типов данных
+
+// урок 11 КЛАССИФИКАЦИЯ ТИПОВ ДАННЫХ
+
  
 // let number = 4.6;
 
@@ -77,19 +86,71 @@
 // let arr = ['plum.png', 'orange.jpg', 6, 'apple.bmp', {}, []]
 // console.log(arr[1]);
 
-// урок 12 разница между объектами и массивами 
 
+// урок 12 РАЗНИЦА МЕЖДУ ОБЪЕКТАМИ И МАСИВАМИ
+
+
+// const arr = ['a', 'b', 'c'];
+
+// arr[10] = '3456'; // не рекомендованый способ добваления массивов
+
+// console.log(arr);
+
+// const arrObj = {
+//     a: 'a',
+//     1: 'b',
+//     2: 'c',
+//     hfg: {
+//         df: [{}, {}],
+//         def:{ 
+
+//         }
+
+//     }
+// };
+// const b = 'b';
+
+// // arrObj.b = '1234'; // создание нового свойства
+// arrObj[b] = {};
+
+// // console.log(arr[1]);
+// console.log(arrObj['b']);
+// console.log(arrObj.b);
+
+// // const obj = {a: 1, b: 2,};
+// const obj = {
+//     'Anna': 500,
+//     'Alice': 800
+// };
+
+
+
+// Урок № 13 ПРОСТОЕ ОБЩЕНИЕ С ПОЛЬЗОВАТЕЛЕМ
+
+
+// alert('hello');
+
+// const result = confirm("Пользователь находится тут");
+// console.log(result);
+
+// const answer = +prompt ("Вам есть 18", "18");
+// console.log(typeof(answer));
 
 // const answers = [];
 
-// // answers[0] = prompt ('Как ваше иvя','');
-// // answers[1] = prompt ('Какая у вас Фамилия','');
-// // answers[2] = prompt ('Сколько вам лет','');
+// answers[0] = prompt ('Как ваше имя','alex');
+// answers[1] = prompt ('Какая у вас Фамилия','osyn');
+// answers[2] = prompt ('Сколько вам лет','26');
+
+// // document.write(answers);
 
 // console.log(typeof(answers));
-// console.log(typeof(null));
+// console.log(typeof(null)); //- официально признаная ошибка 
 
-// // Урок 14 Интерполяция
+
+// // Урок 14 ИНТЕРПОЛЯЦИЯ
+
+
 // const category = 'toys';
 
 // console.log(`https://someurl.com/${category}/5/12`);//конкатенация строк
@@ -99,7 +160,10 @@
 // console.log(`Привет, ${uzer}!`);
 // console.log(5+ +`${uzer}!`); //выдаст NaN
 
-// // Урок 15 Операторы в JS
+
+// // Урок 15 ОПЕРАТОРЫ В JS
+
+
 // let incr = 10,
 //     dscr = 10;
 
@@ -135,9 +199,9 @@
 
 // Задание №1
 
-// const numberOfFilms = +prompt ('Сколько фильмов вы уже посмотрели', '');
+// const numberOfFilms = +prompt ('Сколько фильмов вы уже посмотрели', '677');
 
-// // Задание №2
+// // // Задание №2
 // const personalMovieDB = {
 //     count : numberOfFilms,
 //     movies : {},
@@ -146,22 +210,73 @@
 //     privat : false
 // };
 
-// const watchingAMovie = prompt ('Один из последних просмотреных фильмов', ""),
-//       watchGrade = prompt ('На сколько оцените его',""),
-//       watchingAMovieA = prompt ('Один из последних просмотреных фильмов', ""),
-//       watchGradeB = prompt ('На сколько оцените его',"");
+// // Задание №3
+// const watchingAMovie = prompt ('Один из последних просмотреных фильмов', "Jek Richer"),
+//       watchGrade = prompt ('На сколько оцените его',"5.6"),
+//       watchingAMovieA = prompt ('Один из последних просмотреных фильмов', "Jeki Chan"),
+//       watchGradeB = prompt ('На сколько оцените его',"9.9");
 
 //  personalMovieDB.movies[watchingAMovie] = watchGrade;
 //  personalMovieDB.movies[watchingAMovieA] = watchGradeB;
 
 //  console.log(personalMovieDB);
 
+// Урок № 20 Условия
+// if (4 == 9){           // условие превращает любой тип данных в булиновый
+//     console.log('Ok!')
+// } else {
+//     console.log('Error')
+// }
+
+// const num = 50;
+
+// if (num < 49) {
+//     console.log('Error');
+// } else if (num > 100) {
+//     console.log('Слишком Много');
+// } else {
+//     console.log('OK!');
+// }
+
+// (num === 50) ? console.log('OK!') : console.log('Error'); // тернарный оператор - он так называеться потому что в его работе участвувает аж 3 аргумента 
+
+// 4 + 4 // Бинарный агрумент 
+// +"4" // Унарный 
+
+// let num = +prompt('сколько тебе лет',"22")  //  В конструкции switch мы проверяем только на строгое соответствие
+// switch (num) {
+//     case 12:
+//         console.log('Совсем мало');
+//         break;
+//     case 16:
+//         console.log('Нужно немного подрасти');
+//         break;
+//     case 18:
+//         console.log('Ты соверешенно летний, заходи!');
+//         break;
+//     default:
+//         console.log('Не в этот раз');
+//         break;
+// }   
+
 // Урок №21 Логические операторы
+// const hamberger = true ; 
+// const fries = true ;
+
+// if (hamberger && fries){
+//     console.log("Я сыт");
+// }
+
+// console.log((hamberger && fries));
+
+
 // const hamberger = 5;
 // const fries = 0;
 
 // if (hamberger && fries) {
-//     console.log("Я сыт!")
+//     console.log("Я сыт!");
+// } else {
+//     console.log('Я голоден!');  
 // }
 
 // const hamberger = 3;
