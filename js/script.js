@@ -95,7 +95,11 @@
 
 // if (hamberger && fries) {
 //     console.log("Я сыт!")
+// } else {
+//     console.log("Я хочу есть!")
 // }
+
+
 
 // const hamberger = 3;
 // const fries = 1;
@@ -183,22 +187,22 @@
 
 // let num = 50;
 
-// // while (num <= 55) {
-// //     console.log(num)
-// //     num++;
-// // }
+// while (num <= 55) {
+//     console.log(num)
+//     num++;
+// }
 
-// // do {
-// //     console.log(num)
-// //     num++;
-// // }
+// do {
+//     console.log(num)
+//     num++;
+// }
 
-// // while (num <= 55);
+// while (num <= 55);
  
 // for (let i = 1; i < 10; i++) {
 //     if (i === 6) {
 //         // break; - останавливает цикл на 9
-//         continue; - //останавливает цикл на 10 но при этом пропускает тот шаг который нам не нуден 
+//         continue;  //останавливает цикл на 10 но при этом пропускает тот шаг который нам не нуден 
 //     }
 //     console.log(i);
 // }
@@ -258,3 +262,119 @@
 
 //
 
+// let i = 1;
+// while( i<=10){
+//     console.log(i)
+//     i++
+// }
+// do {
+//     console.log(i)
+//     i++
+// }
+// while (i<=10);
+
+
+// let result = 1;
+// let arr = [1, 2, 3, 4, 5];
+// for (let i = 0; i < arr.length; i++){
+//     console.log(result *= arr[i])
+// } 
+
+
+// for ( let i = 1; i <= 50; i++){
+//     console.log(i)
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// for (let i = 0; i < arr.length; i++){
+//     console.log(arr[i]);
+// }
+// let  result = 1;
+// let arr = [ 2, 3, 4, 5];
+// for (let i = 0; i < arr.length; i++){
+//     result = result * arr[i];
+// }
+// console.log(result);
+
+// for (let i = 1; i <= 5; i++){
+//     console.log(i);
+// }
+
+// for (let i = 20; i > 10; i--){
+//     if (i === 13){
+//         break
+//     }
+//     console.log (i)
+// } 
+
+// for (let i = 2; i <= 16; i++) {
+//     if (i % 2 === 0) {
+//         continue;
+//     } else {
+//         console.log(i);
+//     }
+// }
+
+// let i = 1
+// while (i <= 16){
+//     if(i % 2 === 0){
+//         i++;
+//         continue
+//     }else {
+//         console.log(i)
+//     }
+//     i++;
+// }
+
+
+// Задание №1
+
+// const numberOfFilms = +prompt ('Сколько фильмов вы уже посмотрели', '');
+
+// // Задание №2
+// const personalMovieDB = {
+//     count : numberOfFilms,
+//     movies : {},
+//     actors : {},
+//     genres : [],
+//     privat : false
+// };
+
+// const watchingAMovie = prompt ('Один из последних просмотреных фильмов', ""),
+//       watchGrade = prompt ('На сколько оцените его',""),
+//       watchingAMovieA = prompt ('Один из последних просмотреных фильмов', ""),
+//       watchGradeB = prompt ('На сколько оцените его',"");
+
+//  personalMovieDB.movies[watchingAMovie] = watchGrade;
+//  personalMovieDB.movies[watchingAMovieA] = watchGradeB;
+
+//  console.log(personalMovieDB);
+
+
+// function bake(degrees) {
+//     var message;
+
+//     if (degrees > 500) {
+//         message = " i m not nuclear reactor";
+//     } else if (degrees < 100) {
+//         message = "I m not a refrigerator!";
+//     } else {
+//         message = "That very comfortable temperature for me";
+//         setMode("bake");
+//         setTemp(degrees);
+//     } 
+//     return message;
+// }
+
+// var status = bake(350);
+
+  // let scores = [60, 50, 60, 58, 54, 54, 58, 50, 52, 54, 48, 69];
+
+  // let output;
+
+  // let i = 0
+  // while ( i < scores.length) {
+  //   output = "Bubble solution #" + i + "score" + scores[i];
+  //   console.log(output);
+  //   i++;
+  // }
